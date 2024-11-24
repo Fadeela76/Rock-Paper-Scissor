@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color: #081b31;
+    padding: 20px;
+    color:white;
+}
+
+body{
+    text-align: center;
+}
+
+img{
+    vertical-align: top;
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px;
+    background-size: contain;
+}
+
+.choice{
+    border-radius: 80%;
+    border: none;
+    background-color: white;
+}
+
+img:hover{
+    border: 10px solid #081b31;
+    width: 180px;
+    height: 130px;
+}
+
+.result{
+    margin-top: 60px;
+    vertical-align: top;
+    background-color: #081b31;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.score-board{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 10px;
+}
+
+
